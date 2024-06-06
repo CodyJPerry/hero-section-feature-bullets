@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { RiCheckFill } from 'react-icons/ri';
 
 export default function Home() {
   return (
@@ -13,10 +14,23 @@ export default function Home() {
               Premium abstract images
             </h1>
             {/* Featured Bullets go here */}
-
+            <ul className='flex flex-col gap-3 my-8'>
+              <li className='text-lg text-neutral-600 font-normal flex items-center gap-x-3'>
+                <RiCheckFill className='text-indigo-500 bg-indigo-50 w-6 h-6 rounded-full' />
+                Minimum 5K image resolution
+              </li>
+              <li className='text-lg text-neutral-600 font-normal flex items-center gap-x-3'>
+                <RiCheckFill className='text-indigo-500 bg-indigo-50 rounded-full h-6 w-6' />
+                Various format variants available
+              </li>
+              <li className='text-lg text-neutral-600 font-normal flex items-center gap-x-3'>
+                <RiCheckFill className='text-indigo-500 bg-indigo-50 w-6 h-6 rounded-full' />
+                Retina display support
+              </li>
+            </ul>
             {/* Buttons */}
             <div className='flex gap-4 md:gap-8 mb-12 md:mb-8'>
-              <button className='text-base md:text-lg text-neutral-900 font-medium px-5 py-3 md:px-10 md:py-4 md:w-[213px] border-[0.5px] bg-white rounded grow md:grow-0 shadow hover:bg-[#FAFAFA] focus:outline-none focus:ring-4 focus:ring-offset-7 focus:ring-indigo-100 focus:rounded-sm focus:bg-[#FAFAFA] disabled:cursor-not-allowed disabled:bg-[#F5F5F5] disabled:text-[#A3A3A3]'>
+              <button className='text-base md:text-lg text-neutral-900 font-medium px-5 py-3 md:px-10 md:py-4 md:w-[213px] border-[0.5px] bg-white rounded grow md:grow-0 shadow hover:bg-[#FAFAFA] focus:outline-none focus:ring-4 focus:ring-offset-7 focus:ring-indigo-100 focus:rounded-sm focus:bg-[#FAFAFA] disabled:cursor-not-allowed disabled:bg-[#F5F5F5] disabled:text-[#A3A3A3] order-2'>
                 Learn more
               </button>
               <button className='text-base md:text-lg text-white font-medium bg-indigo-700 px-5 py-3 md:px-10 md:py-4 md:w-[213px] rounded grow md:grow-0 shadow hover:bg-[#3730A3] focus:outline-none focus:ring-4 focus:ring-offset-7 focus:ring-indigo-100 focus:rounded-sm disabled:cursor-not-allowed disabled:bg-[#F5F5F5] disabled:text-[#A3A3A3]'>
