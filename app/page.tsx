@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main className='m-4' role='main'>
       {/* Base Card */}
-      <section className='bg-white py-14 lg:py-24 shadow-sm md:shadow-md lg:shadow-lg rounded max-w-screen-xl mx-auto'>
-        <div className='rounded px-3 py-12 lg:flex lg:px-24 lg:py-0 lg:gap-8 md:flex md:justify-between md:items-center'>
+      <section className='bg-white py-14 lg:py-24 shadow-sm md:shadow-md lg:shadow-lg rounded'>
+        <div className='rounded px-3 py-12 lg:flex lg:px-24 lg:py-0 lg:gap-8 grid grid-cols-1 lg:grid-cols-2 items-center'>
           {/* Content */}
           <div>
             {/* Heading */}
