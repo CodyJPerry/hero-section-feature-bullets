@@ -14,7 +14,7 @@ export default function Home() {
               Premium abstract images
             </h1>
             {/* Featured Bullets go here */}
-            <ul className='flex flex-col gap-3 my-8'>
+            <ul className='flex flex-col gap-4 my-8 md:my-16'>
               <li className='text-lg text-neutral-600 font-normal flex items-center gap-x-3'>
                 <RiCheckFill className='text-indigo-500 bg-indigo-50 w-6 h-6 rounded-full' />
                 Minimum 5K image resolution
