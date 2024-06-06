@@ -31,7 +31,7 @@ export default function Home() {
             </ul>
             {/* Buttons */}
             <div className='flex gap-4 md:gap-8 mb-12 md:mb-8'>
-              <Button className='text-neutral-900 bg-white hover:bg-[#FAFAFA] disabled:bg-[#F5F5F5] disabled:text-[#A3A3A3] order-2 md:order-1'>
+              <Button className='text-neutral-900 bg-white focus:bg-[#FAFAFA] hover:bg-[#FAFAFA] disabled:bg-[#F5F5F5] disabled:text-[#A3A3A3] order-2 md:order-1'>
                 Learn more
               </Button>
               <Button className='text-white bg-indigo-700 hover:bg-[#3730A3] focus:ring-indigo-100 focus:bg-[#3730A3] order-1 md:order-2'>
